@@ -7,11 +7,11 @@
 
 ## <a name='TOC'><a name='TOC'>목차</a>
 
-  1. [Alarm.js](#alarm)
+  1. [Alarm](#alarm)
   
  
 
-## <a name='alarm'>Alarm.js</a> [원문]
+## <a name='alarm'>Alarm</a> [원문]
 
   - 소스바로가기(https://github.com/airbnb/javascript#alarm)
 
@@ -41,10 +41,8 @@
         console.debug("남은 시간 :  " ,  this.hour)
         console.debug("남은 분 :  " ,  this.min)
         console.debug("남은 초 :  " ,  this.sec)
-        */
-        
-      }
-  
+        */        
+      }  
   })
     ```
 
