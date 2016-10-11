@@ -46,12 +46,10 @@
   })
     ```
 
-## <a name='list'>List(상품)</a> [원문]
-
-  - 소스바로가기(https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list)
+## <a name='list'>List(상품)</a> [원문]  
 
 
-**웹**
+  **웹**
 
   - [1단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c1_list.html)
   - [2단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c2_list.html)
