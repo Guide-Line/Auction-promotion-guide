@@ -6,7 +6,7 @@
 ## <a name='TOC'><a name='TOC'>목차</a>
 
   1. [Alarm](#alarm)
-  1. [List](#list)
+  1. [List(상품)](#list)
 
   
  
@@ -46,14 +46,14 @@
   })
     ```
 
-## <a name='list'>List</a> [원문]
+## <a name='list'>List(상품)</a> [원문]
 
   - 소스바로가기(https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list)
 
    
     ```javascript
    <웹>
-   1단  (https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c1_list.html)
+   1단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c1_list.html
    2단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c2_list.html
    3단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c3_list.html
    4단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list-문구2개.html
