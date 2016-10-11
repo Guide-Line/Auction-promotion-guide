@@ -14,9 +14,8 @@
 		
 		var obj = {year: "2016", month: "10",day: "15", hour: "24", min: "00", sec: "00"}//목표시간 설정하기
 		var	alarm = new Alarm(obj)
-		alarm.setInterval_state = "y"; // y or no , y 이면 enterframe 계속 실행
+		alarm.setInterval_state = "n"; // y or no , y 이면 enterframe 계속 실행
 		alarm.setTime();
-		
 	
 		alarm.onComplete= function(){
 			//목표시간이 지나면 실행
@@ -24,7 +23,7 @@
 			alert(this.day+ "일 : " +  this.hour + "시간 : " +  this.min + "분 : "  +this.sec + "초")
 		}
 		alarm.onComplete_before = function(){
-			//목표시간이 지나면 실행
+			//목표시간이 지나지 않았으면 실행
 			//console.debug("목표시간을 지나지않았습니다.")
 			alert(this.day+ "일 : " +  this.hour + "시간 : " +  this.min + "분 : "  +this.sec + "초 남았습니다.")
 		}
