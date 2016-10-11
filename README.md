@@ -56,7 +56,7 @@
   - [4단-문구2개](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list-문구2개.html)
   - [4단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list.html)
 
-  **모바일**
+**모바일**
   - [1단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/m_goods_c1_list.html)
   - [2단+캘린더](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/m_goods_c1_list_calendar.html)
   - [2단+문구1](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/m_goods_c2_list - 문구1개.html)
