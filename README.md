@@ -51,6 +51,7 @@
 
   **웹**
   - [1단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c1_list.html)
+  (img/1.jpg)
   - [2단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c2_list.html)
   - [3단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c3_list.html)
   - [4단-문구2개](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list-문구2개.html)
@@ -65,4 +66,3 @@
   - [1단 가로정렬](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/m_goods_r1_list.html)
  
 
-https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/images/%40goods_col3.jpg
