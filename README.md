@@ -2,7 +2,6 @@
 # [Auction](http://www.auction.co.kr) Promotion  가이드() {
 
 
-
 ## <a name='TOC'><a name='TOC'>목차</a>
 
   1. [Alarm](#alarm)
@@ -95,6 +94,6 @@
   - [1단 가로정렬-소스이동](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/m_goods_r1_list.html)
 
   ![Alt text](/img/m6.jpg)   
-  
+
  
 
