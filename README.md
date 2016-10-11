@@ -3,8 +3,6 @@
 
 
 
-[원문:https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
-
 ## <a name='TOC'><a name='TOC'>목차</a>
 
   1. [Alarm](#alarm)
