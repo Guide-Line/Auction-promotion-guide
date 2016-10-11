@@ -5,8 +5,8 @@
 ## <a name='TOC'><a name='TOC'>목차</a>
 
   1. [Alarm](#alarm)
-  1. [Font - only auction](#font)
-  1. [List(웹 , 모바일 상품)- only auction](#list)
+  1. [Font(style)](#font)
+  1. [List(웹 , 모바일 상품)](#list)
 
   
  
@@ -49,8 +49,8 @@
 
 ## <a name='font'>Font</a> [원문]
    
-    ```javascript
-    
+ 
+
 모바일
 
 font-family:Roboto, Droid Sans, Helvetica, AppleSDGothicNeo, 'Apple SD 산돌고딕 Neo', Apple-Gothic, '애플고딕', 'Tahoma', 'dotum', '돋움', 'gulim', '굴림', sans-serif;
@@ -60,7 +60,7 @@ font-family:Roboto, Droid Sans, Helvetica, AppleSDGothicNeo, 'Apple SD 산돌고
 font-family:"맑은 고딕", Roboto, Droid Sans, Helvetica, AppleSDGothicNeo, 'Apple SD 산돌고딕 Neo', Apple-Gothic, '애플고딕', 'Tahoma', 'dotum', '돋움', 'gulim', '굴림', sans-serif;
 
 
-    ```    
+  
 
 ## <a name='list'>List(상품)</a> [원문]  
 
