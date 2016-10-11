@@ -50,7 +50,6 @@
 
 
   **웹**
-
   - [1단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c1_list.html)
   - [2단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c2_list.html)
   - [3단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c3_list.html)
