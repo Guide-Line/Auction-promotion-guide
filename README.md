@@ -13,7 +13,7 @@
 
 ## <a name='alarm'>Alarm</a> [원문]
 
-  - 소스바로가기(https://github.com/airbnb/javascript#alarm)
+  - 소스바로가기(https://github.com/Guide-Line/Auction-promotion-guide/tree/master/time)
 
    
     ```javascript
