@@ -50,27 +50,13 @@
 
   - 소스바로가기(https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list)
 
-   
 
-   <웹>
-   1단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c1_list.html
-   2단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c2_list.html
-   3단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c3_list.html
-   4단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list-문구2개.html
-   4단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list.html
+**웹**
 
-**Blogs**
-
-  - [DailyJS](http://dailyjs.com/)
-  - [JavaScript Weekly](http://javascriptweekly.com/)
-  - [JavaScript, JavaScript...](http://javascriptweblog.wordpress.com/)
-  - [Bocoup Weblog](http://weblog.bocoup.com/)
-  - [Adequately Good](http://www.adequatelygood.com/)
-  - [NCZOnline](http://www.nczonline.net/)
-  - [Perfection Kills](http://perfectionkills.com/)
-  - [Ben Alman](http://benalman.com/)
-  - [Dmitry Baranovskiy](http://dmitry.baranovskiy.com/)
-  - [Dustin Diaz](http://dustindiaz.com/)
-  - [nettuts](http://net.tutsplus.com/?s=javascript)
-
+  - [1단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c1_list.html)
+  - [2단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c2_list.html)
+  - [3단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c3_list.html)
+  - [4단-문구2개](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list-문구2개.html)
+  - [4단](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list.html)
+ 
 
