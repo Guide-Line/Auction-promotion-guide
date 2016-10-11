@@ -5,7 +5,7 @@
 ## <a name='TOC'><a name='TOC'>목차</a>
 
   1. [Alarm](#alarm)
-  1. [List(웹 , 모바일 상품)](#list)
+  1. [List(웹 , 모바일 상품)- only auction](#list)
 
   
  
