@@ -6,6 +6,8 @@
 ## <a name='TOC'><a name='TOC'>목차</a>
 
   1. [Alarm](#alarm)
+  1. [List](#list)
+
   
  
 
@@ -42,6 +44,21 @@
         */        
       }  
   })
+    ```
+
+## <a name='list'>List</a> [원문]
+
+  - 소스바로가기(https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list)
+
+   
+    ```javascript
+   <웹>
+   1단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c1_list.html
+   2단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c2_list.html
+   3단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c3_list.html
+   4단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list%20-%20%EB%AC%B8%EA%B5%AC2%EA%B0%9C.html ( 문구 2개)
+   4단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list.html
+
     ```
 
 
