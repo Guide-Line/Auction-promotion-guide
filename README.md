@@ -53,10 +53,10 @@
    
     ```javascript
    <웹>
-   1단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c1_list.html
+   1단  (https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c1_list.html)
    2단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c2_list.html
    3단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c3_list.html
-   4단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list%20-%20%EB%AC%B8%EA%B5%AC2%EA%B0%9C.html ( 문구 2개)
+   4단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list-문구2개.html
    4단  https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/goods_c4_list.html
 
     ```
