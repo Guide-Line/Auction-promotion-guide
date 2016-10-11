@@ -9,7 +9,8 @@
 ## <a name='TOC'><a name='TOC'>목차</a>
 
   1. [Types](#types)
-
+  1. [Objects](#objects)
+ 
 
 ## <a name='types'>Types</a> [원문](https://github.com/airbnb/javascript#types)
 
