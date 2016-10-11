@@ -65,3 +65,4 @@
   - [1단 가로정렬](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/m_goods_r1_list.html)
  
 
+https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/images/%40goods_col3.jpg
