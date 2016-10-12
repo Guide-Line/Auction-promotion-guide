@@ -3,7 +3,7 @@
 
 ## <a name='alarm'>Alarm(상품)</a>
 
-    ```javascript
+
     $(document).ready(function(){
     
     var obj = {year: "2016", month: "10",day: "15", hour: "24", min: "00", sec: "00"}//목표시간 설정하기
@@ -33,5 +33,5 @@
     }
   
   })
-   ``` 
+
 
