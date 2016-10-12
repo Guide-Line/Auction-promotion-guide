@@ -11,7 +11,7 @@
     <html>
     <iframe class="ifr_sns" src="sns.html" width="56" height="320" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
-    ![Alt text](../img/wsns.jpg)  
+![Alt text](../img/wsns.jpg)  
 
 
 
@@ -23,6 +23,6 @@
 
 
 
-    ![Alt text](../img/msns.jpg) 
+![Alt text](../img/msns.jpg) 
 
 
