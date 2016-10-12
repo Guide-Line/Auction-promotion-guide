@@ -1,5 +1,5 @@
 
-# [목차이동](https://github.com/Guide-Line/Auction-promotion-guide)
+# [목차이동](https://github.com/Guide-Line/Auction-promotion-guide#TOC)
 
 ## <a name='alarm'>Alarm(상품)</a>
 
