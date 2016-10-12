@@ -6,7 +6,7 @@
 
   1. [Alarm](#alarm)
   1. [Font(style)](#font)
-  1. [sns](#Sns)  
+  1. [Sns](#sns)  
   1. [List(웹 , 모바일 상품)](#list)
 
   
