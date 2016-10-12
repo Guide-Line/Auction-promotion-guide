@@ -9,14 +9,14 @@
   1. [Alarm](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/time#alarm)
   1. [Sns](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/sns#sns)
   1. [List(기본)](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)
-    1. [List](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)
+    1. [모바일2단 ( 대표이미지 + 상품 )](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list/other_version_01#list)
     1. [List](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)
     1. [List](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)
 
 
   
  ## <a name='default'>html기본폼</a> [원문]
- 
+
    - 웹
     ```javascript
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
