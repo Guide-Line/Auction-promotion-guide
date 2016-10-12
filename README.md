@@ -7,7 +7,7 @@
   1. [html기본폼](#default)
   1. [Alarm](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/time#alarm)
   1. [Font(style)](#font)
-  1. [Sns](#sns)  
+  1. [Sns](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/sns#sns)  
   1. [List(웹 , 모바일 상품)](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)
 
   
@@ -95,39 +95,6 @@
 
 **[[↑]](#TOC)**
 
-
-
-## <a name='sns'>Sns</a> [원문]
-
-  - 소스바로가기(https://github.com/Guide-Line/Auction-promotion-guide/tree/master/sns)
-
-  
-    ```javascript
-    웹
-    <style>
-    .ifr_sns{top:20px;right:0px;position: absolute;}
-    <html>
-    <iframe class="ifr_sns" src="sns.html" width="56" height="320" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-   ``` 
-    ![Alt text](/img/wsns.jpg)  
-
-
-
-    ```javascript
-    모바일
-    <style> : 우측 상단에 위치 하게 인라인으로 작성되어있음
-    <html>
-    <iframe style="position: absolute; top:1%; right:3%; width:13%; z-index:10;" src="m_sns.html" width="100%"  scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-
-  
-   ``` 
-
-    ![Alt text](/img/msns.jpg) 
-
-
-**[[↑]](#TOC)**
-
-    
 
 
 ## <a name='font'>Font</a> [원문]
