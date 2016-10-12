@@ -28,8 +28,8 @@
 <title>옥션 - 프로모션명</title>
 <style>
   *{padding: 0; margin:0; border: 0;}
-  #p_wapper{position:relative; width:100%; line-height: 0px;}
-  #p_wapper img{vertical-align: top; line-height: 0px;}
+  #p_wrapper{position:relative; width:100%; line-height: 0px;}
+  #p_wrapper img{vertical-align: top; line-height: 0px;}
   
   #p_header{position: relative; width:100%;}
   #p_contents{position: relative; width:100%;}
@@ -38,7 +38,7 @@
 </head>
 
 <body>
-  <div id="p_wapper">
+  <div id="p_wrapper">
     <div id="p_header">
       
     </div>
@@ -68,8 +68,8 @@
 <title>옥션 - 프로모션명</title>
 <style>
   *{padding: 0; margin:0; border: 0;}
-  #p_wapper{position:relative; width:100%; line-height: 0px; max-width:640px; margin: 0 auto}
-  #p_wapper img{vertical-align: top; line-height: 0px; width:100%;}
+  #p_wrapper{position:relative; width:100%; line-height: 0px; max-width:640px; margin: 0 auto}
+  #p_wrapper img{vertical-align: top; line-height: 0px; width:100%;}
   
   #p_header{position: relative; width:100%;}
   #p_contents{position: relative; width:100%;}
@@ -78,7 +78,7 @@
 </head>
 
 <body>
-  <div id="p_wapper">
+  <div id="p_wrapper">
     <div id="p_header">
       
     </div>
