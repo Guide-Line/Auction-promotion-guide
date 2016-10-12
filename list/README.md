@@ -1,5 +1,5 @@
 
-## <a name='list'>List(상품)</a> [원문]  
+## <a name='list'>List(상품)</a>
 
 
   **웹**
@@ -50,4 +50,4 @@
   ![Alt text](../img/m6.jpg)   
 
  
-**[[↑]](#TOC)**
+
