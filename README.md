@@ -8,7 +8,7 @@
   1. [Alarm](#alarm)
   1. [Font(style)](#font)
   1. [Sns](#sns)  
-  1. [List(웹 , 모바일 상품)](#list)
+  1. [List(웹 , 모바일 상품)](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list)
 
   
  ## <a name='default'>html기본폼</a> [원문]
