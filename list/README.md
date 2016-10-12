@@ -1,5 +1,5 @@
 
-# [<=====](https://github.com/Guide-Line/Auction-promotion-guide)
+# [목차이동](https://github.com/Guide-Line/Auction-promotion-guide)
 
 ## <a name='list'>List(상품)</a>
 
