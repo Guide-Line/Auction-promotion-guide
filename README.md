@@ -29,7 +29,7 @@
 <script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
 
 
-<title>옥션 - 프로모션명</title>
+<title>옥션 - 프로모션명a</title>
 <style>
   *{padding: 0; margin:0; border: 0;}
   #p_wrapper{position:relative; width:100%; line-height: 0px;}
