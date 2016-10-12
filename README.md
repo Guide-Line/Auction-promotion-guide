@@ -5,9 +5,9 @@
 ## <a name='TOC'><a name='TOC'>목차</a>
 
   1. [html기본폼](#default)
+  1. [Font(style)](#font)  
   1. [Alarm](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/time#alarm)
-  1. [Font(style)](#font)
-  1. [Sns](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/sns#sns)  
+  1. [Sns](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/sns#sns)
   1. [List(웹 , 모바일 상품)](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)
 
   
