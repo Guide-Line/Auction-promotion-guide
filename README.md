@@ -53,7 +53,7 @@
 
   - 소스바로가기(https://github.com/Guide-Line/Auction-promotion-guide/tree/master/sns)
 
-   
+##웹   
     ```javascript
     style    
     .ifr_sns{top:20px;right:0px;position: absolute;}
@@ -62,6 +62,7 @@
    ``` 
     ![Alt text](/img/wsns.jpg)  
 
+##모바일
 
     ```javascript
     style : 우측 상단에 위치 하게 인라인으로 작성되어있음
