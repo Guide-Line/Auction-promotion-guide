@@ -15,6 +15,7 @@
     1. [List < -- 왕섭아 언제 할래 ?](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)
     1. [List < -- 추가해줬자나](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)    
   1. [서버시간가져오기](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/server_time#server_time)
+  1. [모바일에서 이미지맵 사용법](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/mobile_image_map#mobile_image_map)
 
 
   
