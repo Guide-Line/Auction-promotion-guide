@@ -1,7 +1,7 @@
 
 # [목차이동](https://github.com/Guide-Line/Auction-promotion-guide#TOC)
 
-## <a name='swipe'>Swipe</a>
+## <a name='fixed_top_navigation'>fixed_top_navigation</a>
 
 
 ### 웹  
