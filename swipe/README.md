@@ -3,7 +3,8 @@
 
 ## <a name='swipe'>Swipe</a>
 
-  
+
+### 웹  
     
 ```javascript
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -66,6 +67,68 @@
 		});
 	</script>
 	
+</body>
+</html>
+```
+
+
+### 모바일  
+    
+```javascript
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="euc-kr">
+	<title>옥션 - 모바일 쇼핑은 옥션</title>
+	<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1, user-scalable=no" />
+	<meta http-equiv="cleartype" content="on"/>
+	<link rel="stylesheet" href="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.min.css">	
+	<style type="text/css">
+		*{margin:0;padding:0}
+		img{border:0;vertical-align:top}
+		li{list-style:none}
+
+		#p_header{margin:0 auto;position:relative}
+		#p_header img{width:100%}
+		#p_header .slider_wrap{position:relative;overflow:hidden;background:#fff;padding-bottom:10%}
+		#p_header .swiper-container {overflow:hidden;position:relative}
+		#p_header .swiper-wrapper {width:100%;height:100%}
+		#p_header .swiper-slide {overflow:hidden;position:relative}		
+		#p_header .swiper-pagination{width:100%;text-align:center;position:absolute;left:0;bottom:5%}
+		#p_header .swiper-pagination-bullet{width:6px;height:6px;margin:0 5px;backgrou... class="swiper-slide">2</div>
+					<div class="swiper-slide">3</div>
+					<div class="swiper-slide">4</div>
+					<div class="swiper-slide">5</div>
+					<div class="swiper-slide">6</div>
+					<div class="swiper-slide">7</div>
+					<div class="swiper-slide">8</div>
+					<div class="swiper-slide">9</div>
+					<!-- // -->
+
+				</div>
+			</div>			
+
+			<!-- Add Arrows -->
+			<div class="swiper-button-next swiper-button-black"></div>
+			<div class="swiper-button-prev swiper-button-black"></div>
+
+			<div class="swiper-pagination"></div>
+		</div>
+
+		<script>
+			var swiper01 = new Swiper('#p_header .slider_wrap .swiper-container', {				
+				autoplay : 4500,
+				nextButton: '#p_header .slider_wrap .swiper-button-next',
+				prevButton: '#p_header .slider_wrap .swiper-button-prev',
+				pagination: '#p_header .swiper-pagination',
+				paginationClickable: true,
+				loop: true,
+				autoHeight: true,
+				spaceBetween: 0
+			});			
+		</script>
+	</div>
+
 </body>
 </html>
 ```
