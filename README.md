@@ -11,8 +11,8 @@
   1. [Sns](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/sns#sns)
   1. [List(기본)](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)
     1. [모바일2단 ( 대표이미지 + 상품 )](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list/other_version_01#list)
-    1. [List](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)
-    1. [List](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)    
+    1. [List < -- 왕섭아 언제 할래 ?](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)
+    1. [List < -- 추가해줬자나](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/list#list)    
   1. [서버시간가져오기](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/server_time#server_time)
 
 
