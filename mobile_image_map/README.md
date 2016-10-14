@@ -6,7 +6,11 @@
 
 ### 모바일  
 -불규칙하게 링크 경로가 들어가있는 경우에 사용합니다.
+
 -개발로 들어가는 부분에 사용하지 않습니다.
+
+-해당 페이지에 아래 스크립트 작성후 이미지맵을 걸어줍니다.
+
     
 ```javascript
 <script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/07C0B575AE/resizeImageMaps.js"></script>
