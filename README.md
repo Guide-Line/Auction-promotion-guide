@@ -2,7 +2,7 @@
 # [Auction](http://www.auction.co.kr) Promotion  가이드() {
 
 
-## <a name='TOC'><a name='TOC'>목차a</a>
+## <a name='TOC'><a name='TOC'>목차b</a>
 
   1. [html기본폼](#default)
   1. [Font(style)](#font)  
