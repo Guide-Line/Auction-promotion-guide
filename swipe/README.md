@@ -3,7 +3,7 @@
 
 ## <a name='swipe'>Swipe</a>
 
-## 세부옵션
+### Official Site
 -http://idangero.us/swiper/api/#.WAdfffmLTmF
 
 ### 웹  
