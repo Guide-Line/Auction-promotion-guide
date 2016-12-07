@@ -5,7 +5,7 @@
 
 
 
-  - [소스이동](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/other_version_01/m_5_brand_goods_c2_list.html)
+  - [소스이동](https://github.com/Guide-Line/Auction-promotion-guide/blob/master/list/calendar_swipe/m_goods_c1_list_calendar_swipe.html)
 
   ![Alt text](img/swipe_cal.jpg)  
 
