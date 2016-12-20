@@ -1,0 +1,99 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
+<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/04D25F0304/TweenLite.min.js"></script>
+<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/04D25F0304/TimelineLite.min.js"></script>
+<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/04D25F0304/EasePack.min.js"></script>
+<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/04D25F0304/CSSPlugin.min.js"></script>
+
+
+<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/04D25F0304/TweenMax.min.js"></script>
+<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/04D25F0304/BezierPlugin.min.js"></script>
+
+
+<title>옥션</title>
+<style>
+	*{padding: 0; margin:0; border: 0;}
+	.rel{position: relative; width:100%;}
+	.inc-obj{position: relative; width:980px; margin: 0 auto;}
+	#p_wrapper{position:relative;width: 100%; height: 100%; line-height: 0px; border: 1px solid red;}
+	#p_wrapper img{vertical-align: top; line-height: 0px;}
+	
+	#p_header{position: relative; width:100%;}
+	.p_contents{position: relative; width:1000px; height:1000px; border: 1px solid blue;}
+	#p_footer{position: relative; width:100%;}
+    .obj{position: absolute; left: 100px; top:20px;}    
+    .obj2{position: absolute; left: 0px; top:0px;}
+    .obj3{position: absolute; left: 0px; top:0px;}
+</style>
+
+<script>
+    
+    $(document).ready(function(){
+        /*TweenLite*/       
+        TweenLite.to(".obj", 2, {width:"200px", height:"150px", left:"500px", top:"500px",boxShadow:"0px 0px 20px red", color:"#FC0", ease:Power2.easeInOut, onComplete:myFunction}).delay(1);
+        function myFunction(){        
+           //alert("모션완료")        
+        }
+        
+        
+        /*TimelineLite*/
+        var tl = new TimelineLite();
+        var element = $(".obj2")
+        tl.add( TweenLite.to(element, 1, {left:800 , ease:Power2.easeInOut}) );
+        tl.add( TweenLite.to(element, 1, {top:800 , ease:Power2.easeInOut}) );        
+        tl.add( TweenLite.to(element, 1, {left:0, ease:Power2.easeInOut}) );
+        tl.add( TweenLite.to(element, 1, {opacity:0 , top:0 , ease:Power2.easeInOut, onComplete:function(){tl.restart();}}) );
+        //play(), stop(), seek(), restart(), and even reverse() 
+        
+        
+        /*BezierPlugin*/
+        var _obj3 = ".obj3"
+        //tween the "left" and "top" css properties through the supplied values (notice we're passing the array directly to the bezier rather than creating an object with "values" because we're accepting the defaults)
+        //TweenMax.to(_obj3, 5, {bezier:[{left:100, top:250}, {left:100, top:0}, {left:500, top:700}], ease:Power1.easeInOut});
+
+        //if we want to customize things, like the curviness and setting autoRotate:true, we need to define the bezier as an object instead, and pass our array as the "values" property
+        TweenMax.to(_obj3, 5, {bezier:{curviness:1.25, values:[{x:100, y:250}, {x:300, y:0}, {x:500, y:400}], autoRotate:true}, backgroundColor:"#f00", ease:Power1.easeInOut});
+
+        //let's define the type as "soft" instead of using the default "thru"
+        //TweenMax.to(_obj3, 5, {bezier:{type:"soft", values:[{x:100, y:250}, {x:300, y:0}, {x:500, y:400}], autoRotate:true}, ease:Power1.easeInOut});
+
+        //now we'll do a cubic Bezier and make our target auto rotate but add 45 degrees to the rotation
+        //TweenMax.to(_obj3, 5, {bezier:{type:"cubic", values:[{x:100, y:250}, {x:150, y:100}, {x:300, y:500}, {x:500, y:400}], autoRotate:["x","y","rotation",45,false]}, ease:Power1.easeInOut});
+
+        //NON-CSS, generic x/y property tween: animate obj through the points in the array (notice we're passing the array directly to the bezier rather than creating an object with "values" because we're accepting the defaults)
+        //TweenMax.to(_obj3, 5, {bezier:[{x:100, y:250}, {x:300, y:0}, {x:500, y:400}], ease:Power1.easeInOut});
+    })
+    
+    
+    
+
+</script>
+</head>
+
+<body>
+	<div id="p_wrapper">
+        
+        <div class="p_contents">
+           1
+            <img class="obj" src="http://eventimg.auction.co.kr/md/auction/0915894B4E/w_tit_txt1.png" width="200" height="200" alt="">
+        </div>
+       
+        <div class="p_contents">
+            2
+            <img class="obj2" src="http://eventimg.auction.co.kr/md/auction/0915894B4E/w_tit_txt1.png" width="200" height="200" alt="">
+        </div>
+        
+        <div class="p_contents">
+            3
+            <img class="obj3" src="http://eventimg.auction.co.kr/md/auction/0915894B4E/w_tit_txt1.png" width="200" height="200" alt="">
+        </div>
+
+    </div>
+</body>
+</html>
