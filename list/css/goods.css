@@ -21,7 +21,7 @@ img{border:0;vertical-align:top;}
 .goods_area .goods_price .deal_price{color:#000;}
 .goods_area .soldout{position:absolute;top:0%;left:0%;width:100%;z-index:100;}
 .goods_area .finish{position:absolute;top:0%;left:0%;width:100%;z-index:100;}
-.goods_area li{	
+.goods_area li{
 	border:1px #e6e6e6 solid;border-top:1px solid #f0f0f0;border-bottom:1px solid #c5c5c5;
 	-webkit-box-shadow: 0 1px 0 #c5c5c5;
 	-moz-box-shadow: 0 1px 0 #c5c5c5;
