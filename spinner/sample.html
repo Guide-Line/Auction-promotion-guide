@@ -1,0 +1,107 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"/>
+
+    <script src="http://eventimg.auction.co.kr/md/auction/086E44373C/jquery-1.12.0.min.js"></script>
+    <script src="http://eventimg.auction.co.kr/md/auction/086E44373C/imgSpinner.min.js"></script>
+
+
+    <title>2day 122</title>
+    <style>
+        *{padding: 0; margin:0; border: 0;}
+        li{list-style: none;}
+        #p_wapper{position: relative;  max-width:640px;margin:0 auto; text-align: center; }
+        #p_wapper img{vertical-align: top;}
+
+        .over_img{
+            margin:0 auto;
+            width:300px;
+            height: 426px;
+            display: none;
+        }
+        .over_img img{
+           width:300px;
+            height: 426px;
+        }
+        .tag{position: absolute; z-index: 10; left: 7px; top:7px;}
+        .tag img{width:160px; height:100px;}
+        .overlap{position: absolute; top:0; left: 0; width:100%; height: 426px; background-color: transparent; z-index: 1000; }
+        .overlap img{width:100%; height: 100%;}
+
+        .soldout{position: absolute; z-index: 20; left: 50%; top:30%; width:96px; height:96px; display:none;}
+        .soldout img{margin-left:-80px; margin-top:-48px;  width:100%; }
+    </style>
+    <script>
+
+        window.onload = function(){
+           var address = document.location.href;
+            if(address.split("soldout=")[1] == "y"){
+                $(".soldout").css("display" ,"block")
+            }
+        }
+    </script>
+</head>
+
+<body>
+<div id="p_wapper">
+    
+    <p class="tag">
+        <img src="http://eventimg.auction.co.kr/md/auction/086E44373C/m_today_tagInfo_01.png"  alt=""/>
+    </p>
+
+    <p class="soldout">
+        <img src="http://eventimg.auction.co.kr/md/auction/086E44373C/m_soldout.png" alt=""/>
+    </p>
+
+    <div class="over_img img_inner" id="spinner">
+
+    </div>
+    <img src="http://eventimg.auction.co.kr/md/auction/086E44373C/m_today_priceInfo_01.jpg" width="320" height="161" alt=""/>
+    <script>
+        $(function(){
+            $('#spinner').imgSpiner({
+                startNum: 0, // 첫번째 이미지의 숫자
+                endNum: 51, // 마지막 이미지의 숫자
+                numberLength: 2, // 이미지 이름중 숫자의 자릿수 (ex : 001 -> 3 , 01 -> 2)
+                imgName: 'digital_slim_', // 이미지의 이름중 숫자 앞에 붙는 이름 (ex : img_001.jpg -> 'img_')
+                imgsRoot: 'http://eventimg.auction.co.kr/md/auction/086E44373C/', // 이미지가 들어있는 경로
+                imgKind: 'jpg', // 이미지 확장자
+                listClass: 'imgSpinerItem', // li 에 추가될 클래스명
+                rotateWidth: 400, // 1회전을 위한 터치 거리 (auto 의 경우 오브젝트의 가로값/2 만큼을 자동으로 잡음.)
+                moveEndSpeedSec: 50,
+                autoRoll: true, // 자동 재생 활성화 여부
+                autoFrame: 10, // 자동 재생 초당 프레임
+                eventRap: false, // true 일경우 $(this).parent().find('.img_spiner__overlay') 을 찾습니다.
+                eventClass: '', // eventRap 이 true 일때 사용.
+                reverse: true, // 방항 (이미지에 따라 다름...)
+
+
+                complete: function(){
+                    $('#spinner').fadeIn('fast');
+                },
+                clickEvent: function()
+                {
+                    // console.log('click');
+                },
+                moveEvent: function(a, b)
+                {
+                    // console.log(a,b);
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+
+    </script>
+</div>
+</body>
+</html>
+
+
