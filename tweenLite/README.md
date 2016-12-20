@@ -3,7 +3,4 @@
 
 ## <a name='green sock'>green sock</a>
 
-
-    (http://greensock.com/docs#/HTML5/)
-
-
+[http://greensock.com/docs#/HTML5/](http://www.auction.co.kr)
