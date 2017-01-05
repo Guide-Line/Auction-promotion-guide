@@ -18,6 +18,8 @@
   1. [모바일에서 이미지맵 사용법](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/mobile_image_map#mobile_image_map)
   1. [tweenlite (2016.12.20)](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/tweenLite#greensock)
   1. [spinner (2016.12.20) cut by cut 제어 js](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/spinner#spinner)
+  1. [spinner (2016.12.20) cut by cut 제어 js](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/spinner#spinner) - test
+  1. [spinner (2016.12.20) cut by cut 제어 js](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/spinner#spinner) - test
 
 
   
@@ -103,7 +105,7 @@
 </html>
    ```
 
-
+**[[↑]](#TOC)**
 
 
 
@@ -121,7 +123,7 @@ font-family:Roboto, Droid Sans, Helvetica, AppleSDGothicNeo, 'Apple SD 산돌고
 font-family:"맑은 고딕", Roboto, Droid Sans, Helvetica, AppleSDGothicNeo, 'Apple SD 산돌고딕 Neo', Apple-Gothic, '애플고딕', 'Tahoma', 'dotum', '돋움', 'gulim', '굴림', sans-serif;
 
 
-
+**[[↑]](#TOC)**
 
 
 
