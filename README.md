@@ -19,7 +19,7 @@
   1. [tweenlite (2016.12.20)](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/tweenLite#greensock)
   1. [spinner (2016.12.20) cut by cut 제어 js](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/spinner#spinner)
   1. [spinner (2016.12.20) cut by cut 제어 js](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/spinner#spinner) - test
-  1. [spinner (2016.12.20) cut by cut 제어 js](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/spinner#spinner) - test
+  
 
 
   
