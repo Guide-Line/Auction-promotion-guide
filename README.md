@@ -18,7 +18,9 @@
   1. [모바일에서 이미지맵 사용법](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/mobile_image_map#mobile_image_map)
   1. [tweenlite (2016.12.20)](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/tweenLite#greensock)
   1. [spinner (2016.12.20) cut by cut 제어 js](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/spinner#spinner)
-  
+  1. [spinner (2016.12.20) cut by cut 제어 js](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/spinner#spinner)
+  1. [spinner (2016.12.20) cut by cut 제어 js](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/spinner#spinner)
+
   
 
 
@@ -63,10 +65,10 @@
   </div>
 </body>
 </html>
-   ``` 
+   ```
 
    - 모바일.
-    ```javascript
+```javascript
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
