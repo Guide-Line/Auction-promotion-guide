@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
+    <title>옥션</title>
+	<style>
+		*{padding: 0; margin:0; border: 0;}
+		li{list-style: none;}
+
+		#share{position: relative;  width:100%; margin:0 auto;background: transparent;}
+		#share img{vertical-align: top;}
+
+		#share #btn_share span{cursor:pointer;}
+
+		#share #share_cnt{display:none;}
+	</style>
+	<script>
+		var isClick;
+
+		$(document).ready(function(){
+			$("#btn_share").click(function(){
+				if(!isClick){
+					$("#share_cnt").show()
+				}else{
+					$("#share_cnt").hide()
+				}
+				isClick =!isClick;
+
+				window.frameElement.style.height = document.body.offsetHeight + 'px';
+			})
+		})
+	</script>
+	<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/07C0B575AE/resizeFrame.js"></script>
+</head>
+<body>
+
+	<div id="share">
+		<div id="btn_share">
+			<a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/09041282BE/btn_share.png" alt=""/></a>
+		</div>
+		<div id="share_cnt">
+			<div id="btn_facebook">
+				<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/08F8F47048/btn_facebook.png" alt=""/></a>
+			</div>
+			<div id="btn_twitter">
+				<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/08F8F47048/btn_twitter.png" alt=""/></a>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
