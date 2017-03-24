@@ -1,11 +1,9 @@
 
 # [목차이동](https://github.com/Guide-Line/Auction-promotion-guide#TOC)
 
-## <a name='swipe'>Swipe</a>
+## <a name='swipe'>모바일에서 Swipe error</a>
 
-### Official Site
--http://idangero.us/swiper/api/#.WAdfffmLTmF
-[API] -https://github.com/nolimits4web/Swiper/blob/Swiper2/API.md
+
 
 ### 모바일  
     
