@@ -8,7 +8,7 @@
   1. [Font(style)](#font)  
   1. [스와이프 플러그인 (Swipe 3.x) 기본](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/swipe#swipe)
         - [모바일기획전에 좌우배너 삽입시 요령](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/swipe/%EB%AA%A8%EB%B0%94%EC%9D%BC_%EC%A2%8C%EC%9A%B0%EB%A1%A4%EB%A7%81%EB%B0%B0%EB%84%88_%EB%86%92%EC%9D%B4%EA%B0%92%EB%AA%BB%EC%9E%A1%EB%8A%94_%EC%97%90%EB%9F%AC%EB%B0%9C%EC%83%9D)
-        - [모바일iframe상품 좌우배너]
+        - [모바일iframe상품 좌우배너](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/swipe/%EB%AA%A8%EB%B0%94%EC%9D%BCiframe%EC%83%81%ED%92%88%EC%A2%8C%EC%9A%B0%EC%8A%A4%EC%99%80%EC%9D%B4%ED%95%91)
   1. [상단 네비게이션 고정](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/fixed_top_navigation#fixed_top_navigation)
   1. [Alarm](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/time#alarm)
   1. [Sns](https://github.com/Guide-Line/Auction-promotion-guide/tree/master/sns#sns)
