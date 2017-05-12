@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"/>
+
+
+    <script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
+    <script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/04D25F0304/jquery.easing-1.3.min.js"></script>
+
+    <title>옥션</title>
+    <style>
+        *{padding: 0; margin:0; border: 0;}
+        .no-highlight {
+            /* iOS 터치하이라이트 비활성화 */
+            -webkit-tap-highlight-color: transparent;
+            /* 안드로이드 터치 하이라이트 비활성화 */
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+        .rel{position: relative; width:100%;}
+        .inc-obj{position: relative; width:980px; margin: 0 auto;}
+        h1,h2,h3{display: none;}
+        .blind{display: none;}
+        #layerWrap2{position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999; }
+        #layerWrap2 #layerPopCouponType{position:absolute; z-index:2; left:50%; top:50%; }
+        #layerWrap2 #dimmed{position:absolute;left:0%;top:0%;width:100%;height:100%;background:#000;opacity:0.5;z-index:1;filter: alpha(opacity:'50')}
+
+        #p_wrapper{position:relative; width:100%; line-height: 0px;}
+        #p_wrapper img{vertical-align: top; line-height: 0px;}
+
+        #p_header{position: relative; width:100%;}
+        #p_contents{position: relative; width:100%;}
+        #p_footer{position: relative; width:100%;}
+    </style>
+
+</head>
+
+<body>
+<div id="layerWrap2" class="fixed" style="display:none;">
+    <div id="dimmed"></div>
+</div>
+<div id="p_wrapper">
+    <div id="p_header">
+
+    </div>
+    <div id="p_contents">
+
+    </div>
+    <div id="p_footer">
+
+    </div>
+</div>
+</body>
+
+<script>
+    function layPopHide(){
+        $("#layerWrap2").hide();
+        $("#layerPopCouponType").remove();
+    }
+</script>
+
+
+</html>
