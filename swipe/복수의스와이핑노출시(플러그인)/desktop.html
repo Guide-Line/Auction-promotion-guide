@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+    <link rel="stylesheet" href="http://eventimg.auction.co.kr/md/auction/08405BF42E/idangerous.swiper.css">
+
+    <title>옥션</title>
+    <style>
+        *{padding: 0; margin:0; border: 0;}
+        li{list-style: none;}
+        .rel{position: relative; width:100%;}
+        .inc-obj{position: relative; width:980px; margin: 0 auto;}
+        #p_wrapper{position:relative; width:100%; line-height: 0px; min-width:980px;}
+        #p_wrapper img{vertical-align: top; line-height: 0px;}
+
+        #p_contents{position: relative; width:100%;}
+
+
+        .tab{position: relative; width:1000px; height:71px; overflow: hidden;}
+        .tab li{float: left;}
+
+        .swiper-wrapper{position:relative}
+        .swiper-slide{position:relative;width:980px;height:1018px;}
+        .swiper-pagination{width:100%;bottom:10px;left:0}
+        .swiper-pagination .swiper-pagination-switch{width:12px;height:12px;display:inline-block;*display:inline;*zoom:1;padding:0 8px;background:url(http://eventimg.auction.co.kr/md/auction/08E93EF946/w_ico_blit_off.png) no-repeat 0 0;border-radius:0}
+        .swiper-pagination .swiper-active-switch{background:url(http://eventimg.auction.co.kr/md/auction/08E93EF946/w_ico_blit_on.png) no-repeat 0 0}
+        .swiper-button-prev{width:68px;height:68px;position:absolute;top:60%;margin-top:-34px;left:0;background:url(http://eventimg.auction.co.kr/md/auction/08E93EF946/w_btn_prev.png) no-repeat 0 0;z-index:100;cursor:pointer}
+        .swiper-button-next{width:68px;height:68px;position:absolute;top:60%;margin-top:-34px;right:0;background:url(http://eventimg.auction.co.kr/md/auction/08E93EF946/w_btn_next.png) no-repeat 0 0;z-index:100;cursor:pointer}
+    </style>
+    <script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
+    <script src="http://eventimg.auction.co.kr/md/auction/08405BF42E/idangerous.swiper.js"></script>
+
+    <script type="text/javascript">
+        $.fn.IacRealtimeEvent = function(options) {
+            var elements = this;
+            var temp = -1;
+            var isView = 0;
+            var settings = {
+                eventDate : false
+            };
+            var init = function(){
+                //console.log(elements)
+
+                $(elements).find(".tab li>a").each(function(index){
+
+                    var $this = $(this)
+                    $this.click(function(){
+                        isView = index;
+                        console.debug(isView)
+                        selectMenu(index)
+                        mySwiper.swipeTo(isView)
+                    })
+
+                })
+                function selectMenu(n){
+                    if(temp != -1){
+                        var off = $(elements).find(".tab li>a").eq(temp).find("img").attr("src").replace(/_on.jpg/,"_off.jpg")
+                        $(elements).find(".tab li>a").find("img").eq(temp).attr("src" , off)
+                    }
+                    var on = $(elements).find(".tab li>a").eq(n).find("img").attr("src").replace(/_off.jpg/,"_on.jpg")
+                    $(elements).find(".tab li>a").find("img").eq(n).attr("src" , on)
+                    temp = n
+                }
+
+                selectMenu(isView)
+
+                var mySwiper = new Swiper(elements.selector+ ' .swiper-container', {
+                    pagination:elements.selector + ' .swiper-pagination',
+                    paginationClickable:false,
+                    // simulateTouch:true,
+                    loop:true,
+                    autoplay:false,
+                    calculateHeight:true,
+                    autoplay : 2000,
+                    onSlideChangeEnd : function(event){
+                        var mc = event.slides[event.activeIndex]
+                        isView = parseInt($(mc).attr('data-swiper-slide-index'));
+                        selectMenu(isView)
+                    }
+                });
+                $(elements).find('.swiper-button-prev').bind('click', function(e){
+                    e.preventDefault();
+                    // Autoplay false일때
+
+                    mySwiper.stopAutoplay();
+                    mySwiper.swipePrev();
+                    mySwiper.startAutoplay();
+
+                    isView = (mySwiper.activeIndex -1) % (mySwiper.slides.length - 2)
+                    if(isView == -1){
+                        isView = mySwiper.slides.length - 3
+                        selectMenu(isView)
+                    }else{
+                        selectMenu(isView)
+                    }
+                    //alert(isView)
+                });
+                $(elements).find('.swiper-button-next').bind('click', function(e){
+                    e.preventDefault();
+                    // Autoplay false일때
+                    mySwiper.stopAutoplay();
+                    mySwiper.swipeNext();
+                    mySwiper.startAutoplay();
+
+                    isView = (mySwiper.activeIndex - 1) % (mySwiper.slides.length - 2)
+                    //alert(isView)
+                    selectMenu(isView)
+                });
+                $(elements).bind('mouseenter', function(e){
+                    console.log("이벤트영역에 오버시")
+                    mySwiper.stopAutoplay ()
+
+                })
+                $(elements).bind('mouseleave', function(e){
+                    console.log("이벤트 영역에서 마우스 빠져나갔을시")
+                    mySwiper.startAutoplay ()
+                })
+            }
+            $(document).ready(function() {
+                if(options) {
+                    $.extend(settings, options);
+                }
+                init();
+            });
+            return this;
+        };
+
+
+        //start
+        $(document).ready(function(){
+
+            // Gmarket Goods Info Load
+            $(".rollArea01").IacRealtimeEvent({
+                eventDate : []
+            });
+            $(".rollArea02").IacRealtimeEvent({
+                eventDate : []
+            });
+            $(".rollArea03").IacRealtimeEvent({
+                eventDate : []
+            });
+        });
+
+
+
+        $(document).ready(function(){
+
+        })
+
+
+        function categoryLinkPos(num){
+            var iElmPos1 = $("#ifrmItemList").offset().top;
+            var iElmPos2 = $("#ifrmItemList").contents().find("#lblListing").contents("a").eq(num-1).next().offset().top;
+
+            aboveHeight = $(window).scrollTop();
+
+            if(aboveHeight <= 90){
+                $('html, body').stop().animate({ scrollTop: iElmPos1+iElmPos2-90 }, "slow");
+            } else {
+                $('html, body').stop().animate({ scrollTop: iElmPos1+iElmPos2-45 }, "slow");
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+<div id="p_wrapper">
+
+    <div id="p_contents">
+
+
+        <div class="rollArea01 rel" style="background-color:#374a59;">
+            <div class="inc-obj">
+                <img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/hotIssue_img.jpg" alt="" />
+
+                <ul class="tab">
+                    <li> <a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/tab01_off.jpg" alt="" /></a> </li>
+                    <li> <a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/tab02_off.jpg" alt="" /></a> </li>
+                    <li> <a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/tab03_off.jpg" alt="" /></a> </li>
+                    <li> <a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/tab04_off.jpg" alt="" /></a> </li>
+                </ul>
+
+
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- 롤링상품 -->
+                        <div class="swiper-slide" data-swiper-slide-index = "0">
+                            <iframe src="http://eventv2.auction.co.kr/Event3/2016/07/25/EDRA667_TrendPic/Prdpic.aspx?idx=1" width="980" height="1018" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index = "1">
+                            <iframe src="http://eventv2.auction.co.kr/Event3/2016/07/25/EDRA667_TrendPic/Prdpic.aspx?idx=2" width="980" height="1018" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index = "2">
+                            <iframe src="http://eventv2.auction.co.kr/Event3/2016/07/25/EDRA667_TrendPic/Prdpic.aspx?idx=3" width="980" height="1018" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index = "3">
+                            <iframe src="http://eventv2.auction.co.kr/Event3/2016/07/25/EDRA667_TrendPic/Prdpic.aspx?idx=4" width="980" height="1018" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+
+            </div>
+        </div>
+
+
+        <div class="rollArea02 rel" style="background-color:#374a59;">
+            <div class="inc-obj">
+                <img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/hotIssue_img.jpg" alt="" />
+
+                <ul class="tab">
+                    <li> <a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/tab01_off.jpg" alt="" /></a> </li>
+                    <li> <a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/tab02_off.jpg" alt="" /></a> </li>
+                    <li> <a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/tab03_off.jpg" alt="" /></a> </li>
+                    <li> <a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/tab04_off.jpg" alt="" /></a> </li>
+                </ul>
+
+
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- 롤링상품 -->
+                        <div class="swiper-slide" data-swiper-slide-index = "0">
+                            <iframe src="http://eventv2.auction.co.kr/Event3/2016/07/25/EDRA667_TrendPic/Prdpic.aspx?idx=1" width="980" height="1018" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index = "1">
+                            <iframe src="http://eventv2.auction.co.kr/Event3/2016/07/25/EDRA667_TrendPic/Prdpic.aspx?idx=2" width="980" height="1018" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index = "2">
+                            <iframe src="http://eventv2.auction.co.kr/Event3/2016/07/25/EDRA667_TrendPic/Prdpic.aspx?idx=3" width="980" height="1018" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index = "3">
+                            <iframe src="http://eventv2.auction.co.kr/Event3/2016/07/25/EDRA667_TrendPic/Prdpic.aspx?idx=4" width="980" height="1018" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+
+            </div>
+        </div>
+
+
+        <div class="rollArea03 rel" style="background-color:#374a59;">
+            <div class="inc-obj">
+                <img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/hotIssue_img.jpg" alt="" />
+
+                <ul class="tab">
+                    <li> <a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/tab01_off.jpg" alt="" /></a> </li>
+                    <li> <a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/tab02_off.jpg" alt="" /></a> </li>
+                    <li> <a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/tab03_off.jpg" alt="" /></a> </li>
+                    <li> <a href="javascript:;"><img src="http://eventimg.auction.co.kr/md/auction/090CA406B6/tab04_off.jpg" alt="" /></a> </li>
+                </ul>
+
+
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- 롤링상품 -->
+                        <div class="swiper-slide" data-swiper-slide-index = "0">
+                            <iframe src="http://eventv2.auction.co.kr/Event3/2016/07/25/EDRA667_TrendPic/Prdpic.aspx?idx=1" width="980" height="1018" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index = "1">
+                            <iframe src="http://eventv2.auction.co.kr/Event3/2016/07/25/EDRA667_TrendPic/Prdpic.aspx?idx=2" width="980" height="1018" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index = "2">
+                            <iframe src="http://eventv2.auction.co.kr/Event3/2016/07/25/EDRA667_TrendPic/Prdpic.aspx?idx=3" width="980" height="1018" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index = "3">
+                            <iframe src="http://eventv2.auction.co.kr/Event3/2016/07/25/EDRA667_TrendPic/Prdpic.aspx?idx=4" width="980" height="1018" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+</div>
+
+</body>
+</html>
