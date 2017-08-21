@@ -28,7 +28,7 @@
         /*
             스크립트를 선언해 줍니다.
         */
-        window.onload = function () {
+        $(window).load = function () {
             resizeFun()
         }
         $(window).resize(function () {
