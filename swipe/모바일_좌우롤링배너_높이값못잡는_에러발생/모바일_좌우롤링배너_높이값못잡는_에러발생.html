@@ -14,13 +14,13 @@
        *{padding: 0; margin:0; border:0;}
     </style>
     <script type="text/javascript">
-        window.onload = function () {
+        $(window).load= function () {
             resizeFun()
         }
         $(window).resize(function () {
             resizeFun()
         });
-
+ 
 
         function resizeFun() {
             var docWidth = document.body.offsetWidth;
