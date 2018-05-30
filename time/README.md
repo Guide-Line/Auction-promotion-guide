@@ -2,7 +2,8 @@
 # [목차이동](https://github.com/Guide-Line/Auction-promotion-guide#TOC)
 
 ## <a name='alarm'>Alarm(상품)</a>
-
+	
+	<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/04D25F0304/alarm.js"></script>
 
     $(document).ready(function(){
     
